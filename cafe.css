@@ -1,0 +1,337 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.background1{
+    background-image: url(tabel\ and\ chair.jpg);
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+   
+    padding: 50px 20px;
+}
+.background2{
+    background-image: url(inside\ view.jpg);
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    
+}
+
+#logo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    
+}
+
+.menu{
+    background-color: rgb(97, 97, 102);
+    padding: 1px;
+    border-radius: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.menu ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+  position: relative;
+   padding-right:50px ;
+   padding-top: 20px;
+   
+  
+}
+.menu ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   color:#fff ;
+}
+
+.menu ul li ul li a{
+    font-size: 17px;
+}
+
+i{
+    margin-right: 8px;
+    margin-left: 5px;
+}
+.sub-menu1{
+   display: none;
+}
+
+.menu ul li:hover .sub-menu1{
+    position: absolute;
+    display: block;
+    margin-top: 0px;
+    margin-left: -15px;
+    background-color:rgb(97, 97, 102);
+    border-radius: 10px;
+    padding: 10px; 
+   
+ 
+}
+.menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin:0px;
+   
+}
+
+.menu ul li:hover .sub-menu1 ul li{
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    border-radius: 100px;
+    text-align: left;
+}
+
+h1{
+    font-size: 80px;
+   padding-top: 150px;
+    font-weight: bold;
+    font-family: Lucida Handwriting;
+    letter-spacing:20px ;
+   color: white;
+    text-align: center;
+    
+}
+p{
+    color: white;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-family: Brush Script MT;
+    letter-spacing: 3px;
+}
+#welcome-txt{
+    background-color: rgba(1, 1, 1, 0.455);
+    
+}
+h2{
+    padding-top:20px;
+    text-align: center;
+    font-size: 90px;
+}
+h3{
+    font-weight: bold;
+    color: yellow;
+}
+.menu1{
+    display:inline-table;
+    padding-left: 90px;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.408);
+}
+@media screen and (max-width: 768px) {
+    #map{
+        width: 300px;
+        height: 300px;
+    }
+    .mySlides img{
+        height: 300px;
+        width: 200px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    
+    p {
+        font-size: 28px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    
+
+    h2 {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .menu1 {
+        display: block;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    #social {
+        height: 100px; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: flex-start;
+        
+    }
+    #socialMedia{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 30px;
+        
+    }
+    #social a{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+        color: #f0e5e5;
+        
+    }
+    #social a i{
+        padding-left: 10px;
+    
+    }
+    #social a:hover{
+        color: blue;
+    }
+   
+    
+    .menu ul li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu ul li a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .menu ul li:hover .sub-menu1 {
+        display: none; /* Hide submenu on small screens */
+    }
+    
+    .menu ul li:hover ul {
+        display: none; /* Hide submenu on small screens */
+    }
+    
+    .menu ul li:hover {
+        background-color: transparent; /* Remove background on hover for small screens */
+    }
+}
+
+
+.discover{
+    
+    background-image: url(outside\ view.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 100px 20px;
+    
+}
+
+.note{
+   
+    padding-left: 20px;
+    text-align: center;
+    letter-spacing: 8px;
+    background-color: rgba(0, 0, 0, 0.559);
+}
+#discover-txt{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    letter-spacing: 5px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin-top: 50px;
+   display: flex;
+   overflow: hidden;
+
+}
+
+.mySlides {
+    display: none;
+    
+}
+.mySlides img{
+    height:700px;
+    width: 500px;
+}
+
+#head{
+   display:inline-flex;
+   align-items: flex-start;
+    justify-content: space-between;    
+}
+#g-head{
+    text-align: left;
+    font-size:40px;
+    padding-left: 30px;
+}
+#l-head{
+    text-align: right;
+    font-size:40px;
+    padding-left: 600px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.47);
+    height: 300px;
+}
+#image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-top: 50px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+#map{
+    width: 100%; 
+    max-width: 500px;
+}
+#social {
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#socialMedia{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#social a{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    color: #f0e5e5;
+}
+#social a i{
+    padding-left: 100px;
+
+}
+#social a:hover{
+    color: blue;
+}
+#reserve-note{
+    text-align: center;
+    font-size: 40px;
+}
+#reserve-link{
+    padding-left: 60px;
+    color: blue;
+    font-size: 30px;
+}
